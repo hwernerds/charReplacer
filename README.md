@@ -15,11 +15,11 @@ and performs character replacement based on specified input and output character
 
 1. Assemble the program using an assembler:
 
-     as -o translator.o translator.c
+        as -o translator.o translator.c
 
 2. Link the object file:
 
-     ld -o text_processor text_processor.o -lc -dynamic-linker /lib64/ld-linux-x86-64.so.2
+        ld -o text_processor text_processor.o -lc -dynamic-linker /lib64/ld-linux-x86-64.so.2
 
 3. Run the program in one of two different ways:
 
